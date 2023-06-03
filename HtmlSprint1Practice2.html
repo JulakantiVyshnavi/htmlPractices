@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Life of a Software Engineer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20;
+      padding: 30px;
+      border: 2px solid black;
+      padding: 20px;
+    }
+
+    h2 {
+      color: #333;
+      text-align: left;
+      text-decoration: underline;
+    }
+
+    p {
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #555;
+    }
+
+    .newsletter-form {
+      margin-top: 20px;
+    }
+
+    .newsletter-form input[type="email"],
+    .newsletter-form input[type="text"] {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 200px;
+    }
+
+    .newsletter-form input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+     #video{
+      max-width: 550px; 
+      margin-bottom: 20px;
+      
+      
+    }
+  </style>
+</head>
+<body>
+  <h1>Sample Web Page</h1>
+  <h2>Life of a Software Engineer</h2>
+  <a href="#"><img src = "HtmlPracticePic.png" width = 250></a>
+    <p><b>Software Engineers:</b> the masterminds behind many of the applications, games. Their role is to apply the principles of software engineering to design, develop, maintain, test, and evaluate computer software. In general, they troubleshoot issues, test the system, run codes, interact with coworkers and customers, pay close attention to detail, and suggest system improvements.</p>
+  <div class = "video">
+    <video id = "video" controls> <source src="HtmlPrcaticeVideo.mp4" type = "video/mp4"></video>
+  </div>
+  <h2>What does a Software Engineer Do?</h2>
+  <ul>
+    <li>Designing and maintaining software systems</li>
+    <li>Evaluating and testing new software programs</li>
+    <li>Optimizing software for speed and scalability</li>
+    <li>Writing and testing code</li>
+    <li>Consulting with clients, engineers, security specialists, and other stakeholders</li>
+    <li>Presenting new features to stakeholders and internal customers</li>
+  </ul>
+  
+  <div class="newsletter-form">
+    <p>Subscribe to our newsletter</p>
+    <form>
+      <input type="email" placeholder="Enter email id">
+      <br>
+      <input type="text" placeholder="Enter your name">
+      <br>
+      <input type="submit" value="click me" onclick="showAlert()">
+    </form>
+  </div>
+
+  <script>
+    function showAlert() {
+      alert("Thank you for subscribing!");
+    }
+  </script>
+</body>
+</html>
